@@ -1,0 +1,8 @@
+$blockName: 'card-container';
+
+.#{$blockName} {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}

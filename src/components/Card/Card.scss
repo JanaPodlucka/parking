@@ -1,0 +1,17 @@
+$blockName: 'card';
+
+.#{$blockName} {
+  height: 93px;
+  width: 100%;
+  background: #F7F7F7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 420px) {
+    width: 130px;
+  }
+}

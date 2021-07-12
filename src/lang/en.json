@@ -1,0 +1,12 @@
+{
+  "parking.header" : "Parking",
+  "parking.loading" : "Loading...",
+  "parking.apiKey" :  "Api key:",
+  "parking.submitButton" : "Submit",
+  "parking.detail": "Detail",
+  "parking.name": "Name:",
+  "parking.category": "Category:",
+  "parking.totalSpotNumber": "Total spot number:",
+  "modal.close": "Close",
+  "errorMessage.error": "Oops, something went wrong"
+}

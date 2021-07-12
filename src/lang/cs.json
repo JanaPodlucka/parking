@@ -1,0 +1,12 @@
+{
+    "parking.header" : "Parkovanie",
+    "parking.loading" : "Načítání...",
+    "parking.apiKey" :  "Api klíč:",
+    "parking.submitButton" : "Použít",
+    "parking.detail": "Detail",
+    "parking.name": "Název:",
+    "parking.category": "Kategorie:",
+    "parking.totalSpotNumber": "Počet míst:",
+    "modal.close": "Zavřít",
+    "errorMessage.error": "Něco špatného se stalo"
+}

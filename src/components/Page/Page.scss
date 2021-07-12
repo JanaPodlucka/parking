@@ -1,0 +1,41 @@
+$blockName: 'page';
+
+$page-padding: 0 15px;
+
+.#{$blockName} {
+  height: 100vh;
+
+  &__header {
+    height: 51px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $page-padding;
+  }
+
+  &__header-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+  }
+
+  &__footer {
+    background-color: #C4C4C4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: $page-padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+
+  &__content {
+    padding: 11px 8px;
+    padding-bottom: 70px;
+  }
+}

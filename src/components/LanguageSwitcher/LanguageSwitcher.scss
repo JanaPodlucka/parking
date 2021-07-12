@@ -1,0 +1,30 @@
+$blockName: 'language-switcher';
+
+.#{$blockName} {
+  display: inline-flex;
+
+  &__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto, sans-serif;
+    color: gray;
+
+    &:active, &:focus, &:hover {
+      color: black;
+    }
+
+    &_selected {
+      color: black;
+      cursor: initial;
+    }
+  }
+
+  &__separator {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto, sans-serif;
+  }
+}
